@@ -1,0 +1,100 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+/*  header style */
+header{
+    background-color: rgba(0, 0, 255, 0.374);
+    color: rgb(241, 241, 241);
+    position: relative;
+}
+h1{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav{
+    margin-left: 700px;
+    top: 0px;
+    position: absolute;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    top: 0px;
+}
+li a:hover{
+    color: rgb(56, 34, 34);
+}
+a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+    padding: 10px;
+}
+
+/*  main style */
+main{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+}
+h2, h3, h4{
+    text-align: center;
+    padding: 20px;
+}
+img{
+    width: 300px;
+    height: 100px;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+P{
+    justify-content: center;
+    text-align: center;
+}
+
+.buku{
+    border-spacing: 2px;
+    margin: 0 auto;
+}
+.buku-header{
+    background-color: rgba(216, 101, 101, 0.554);
+    color: rgb(253, 253, 253);
+}
+.buku-header th{
+    padding: 10px;
+    text-align: center;
+}
+.buku td{
+    text-align: center;
+}
+.buku{
+    background-color: rgb(255, 255, 255);
+}
+.dua{
+    background-color: rgba(255, 255, 255, 0.374);
+}
+.buku-konten td{
+    padding: 20px;
+}
+.buku tr img{
+    width: 100px;
+}
+.buku-konten:hover{
+    background-color: grey;
+}
+
+/* footer style*/
+footer{
+    background-color: rgb(109, 0, 33);
+}
+footer p{
+    color: white;
+    padding: 20px;
+}
+footer b{
+    color: rgb(255, 255, 255);
+}
